@@ -3,7 +3,7 @@
 #IP
 
 touch /etc/issue
-echo "hostname -I" > /etc/issue
+echo "\4" > /etc/issue
 
 #User
 

@@ -2,7 +2,8 @@
 
 #IP
 
-echo hostname -I
+touch /etc/issue
+echo "hostname -I" > /etc/issue
 
 #User
 

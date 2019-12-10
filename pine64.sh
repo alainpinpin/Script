@@ -15,7 +15,7 @@ usermod -aG sudo alexandre
 	#ligne pour permettre le root log in sans PW
 echo "alexandre     ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 	#Import de ma clé publique manuellement
-mkdir .ssh /home/alexandre/
+	#mkdir /home/alexandre/.ssh
 
 touch /home/alexandre/.ssh/authorized_keys
 
